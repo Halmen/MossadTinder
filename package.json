@@ -1,0 +1,41 @@
+{
+  "name": "MosadTinder",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "react-native-deck-swiper": "^1.6.7",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-local-mongodb": "^2.2.9",
+    "react-native-numeric-input": "^1.6.5",
+    "react-native-searchable-dropdown": "^1.0.6",
+    "react-native-swipe-gestures": "^1.0.3",
+    "react-native-toasty": "0.0.4",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-view-overflow": "0.0.4",
+    "react-navigation": "^3.9.1",
+    "react-redux": "6.0.0",
+    "react-redux-lifecycle": "^2.2.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
